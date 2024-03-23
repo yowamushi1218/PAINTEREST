@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: white;
+  background-color: white;
+  background-image: url("../images/1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+body,
+input,
+button {
+  font-family: "Muli", sans-serif, -apple-system, BlinkMacSystemFont,
+    "Helvetica Neue", Helvetica, sans-serif;
+  outline: none;
+}
+.container {
+  max-width: 1000px;
+  margin: 5% auto;
+}
+*form {
+    border-radius:0 !important;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+form > fieldset > legend {
+    font-size:120%;
+    color: orange;
+
+}

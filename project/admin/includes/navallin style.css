@@ -1,0 +1,42 @@
+<style>
+body{
+	background-color: gray;
+	
+	
+}
+.image img{
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height:250px;
+	background-attachment: scroll;
+	background-position: left; 
+	border-bottom-style: border-style;
+}
+
+.header{
+
+	margin: auto;
+	background-image: url('includes/img/original.gif');
+	height: 250px;
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-attachment: scroll;
+
+
+	
+}
+
+.active{
+	position: right;
+	background-color: yellow;
+	color: black;
+	width:120px;
+	height:50px;
+	
+}
+
+</style>

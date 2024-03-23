@@ -1,0 +1,56 @@
+
+<style>
+body{
+	background-color: aliceblue;
+}
+.nav-bar{
+
+  width: 1535px;
+  padding: 0px;
+  height: 15px;
+  border-radius: 15px 0 0 15px;
+  margin-left: 0px;
+  margin-right: 10px;
+  font-family: normal;
+
+}
+
+.image img{
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height:250px;
+	background-position: center; 
+}
+
+.header{
+
+	margin: auto;
+	background-image: url('Includes/img/2.jpg');	
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover; 
+
+
+	
+}
+.navbar-brand{
+	list-style-type: none;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	width: 500%;
+	height:50px;
+	padding:10px;
+	margin:0px;
+}
+
+.Logout{
+	
+	left: 440%;
+}
+
+
+</style>
